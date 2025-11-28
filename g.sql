@@ -1,0 +1,3 @@
+ALTER TABLE products
+DROP COLUMN images,
+ADD COLUMN image VARCHAR(255) NOT NULL;
